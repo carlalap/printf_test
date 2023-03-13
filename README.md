@@ -8,6 +8,7 @@
 <br><a href="https://www.it.uc3m.es/pbasanta/asng/course_notes/input_output_printf_en.html#:~:text=8.3.-,4.,be%20printed%20on%20the%20screen"> The printf function</a>
 
 <b>Learning Objectives</b>
+
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
 <b>Requirements</b>
@@ -42,18 +43,19 @@ $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
 
 <b>Use & Examples </b>
 
-<br>Prototype: int _printf(const char *format, ...); Use - General: _printf("format string", var1, var2, ...);
+Prototype: int _printf(const char *format, ...); Use - General: _printf("format string", var1, var2, ...);
 
 Examples:
 
-<br>Basic String: _printf("%s Holberton", "Hello");`
+Basic String: _printf("%s Holberton", "Hello");`
 
 Output: Hello Holberton
 
-<br>Print integers: _printf("This is an array element: arr[%d]:%c", 32, arr[32]);`
+Print integers: _printf("This is an array element: arr[%d]:%c", 32, arr[32]);`
 
 Output: This is an array element arr[32]:A
 
+<br>
 
 <b>Files contained in this repository</b>
 
@@ -94,17 +96,18 @@ Output: This is an array element arr[32]:A
 
 0. I am not going anywhere. You can print that wherever you want to. I'm here and I am a Spur for life1. I am not going anywhere. You can print that wherever you want to. I'm here and I am a Spur for life.
 
-<br>Write a function that produces output according to a format. Handle the following conversion specifiers:
+Write a function that produces output according to a format. Handle the following conversion specifiers:
 
 <br>c
 <br>s
 <br>%
 
-<br>1. Education is when you read the fine print. Experience is what you get if you dont
+1. Education is when you read the fine print. Experience is what you get if you dont
 Handle the following conversion specifiers:
 
 <br>*d
 <br>*i
 
-<br>2. Just because its in print doesn't mean its the gospel
+2. Just because its in print doesn't mean its the gospel
+
 Create a man page for the function
