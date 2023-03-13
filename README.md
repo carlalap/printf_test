@@ -99,14 +99,14 @@ Output: This is an array element arr[32]:A
 Write a function that produces output according to a format. Handle the following conversion specifiers:
 
 <br>c
-<br>s
-<br>%
+s
+%
 
 1. Education is when you read the fine print. Experience is what you get if you dont
 Handle the following conversion specifiers:
 
-<br>*d
-<br>*i
+<br>d
+i
 
 2. Just because its in print doesn't mean its the gospel
 
