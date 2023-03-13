@@ -102,7 +102,7 @@ Output: This is an array element arr[32]:A
 <br>%
 
 <br>1. Education is when you read the fine print. Experience is what you get if you dont
-Handle the following conversion specifiers:
+<br>Handle the following conversion specifiers:
 
 <br>d
 <br>i
